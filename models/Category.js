@@ -8,27 +8,31 @@ Category.init(
   {
       id: {
         type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+        allowNull: false,
       }, 
       category_name: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING,
+        // allowNull: false,
       },
-      products: {
-        id: {
-          type: DataTypes.INTEGER
-        },
-        product_name: {
-          type: DataTypes.STRING
-        },
-        price: {
-          type: DataTypes.INTEGER
-        },
-        stock: {
-          type: DataTypes.INTEGER
-        },
-        category_id: {
-          type: DataTypes.INTEGER
-        },
-      },
+      // products: {
+      //   id: {
+      //     type: DataTypes.INTEGER,
+      //   },
+      //   product_name: {
+      //     type: DataTypes.STRING,
+      //   },
+      //   price: {
+      //     type: DataTypes.INTEGER,
+      //   },
+      //   stock: {
+      //     type: DataTypes.INTEGER,
+      //   },
+      //   category_id: {
+      //     type: DataTypes.INTEGER,
+      //   },
+      // },
     // title: {
     //   type: DataTypes.STRING,
     //   validate: {

@@ -30,6 +30,10 @@ Please watch video.
 
 [Walkthrough Video]()
 
+![Categories](./assets/images/Screenshot-045847.png)
+![Products](./assets/images/Screenshot-045913.png)
+![Tags](./assets/images/Screenshot-045928.png)
+
 ## Badges
 
 N/A
