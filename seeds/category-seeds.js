@@ -1,9 +1,5 @@
 //
-// const sequelize = require('../config/connection');
-const sequelize = require('sequelize');
 const { Category } = require('../models/');
-
-const categorySeedData = require('./categorySeedData.json');
 
 const categoryData = [
   {
@@ -25,6 +21,8 @@ const categoryData = [
 
 const seedCategories = () => Category.bulkCreate(categoryData);
 
+// const categorySeedData = require('./categorySeedData.json');
+// 
 // const seedCategories1 = async () => {
 //   try {
 //     await sequelize.sync({ force: true });
