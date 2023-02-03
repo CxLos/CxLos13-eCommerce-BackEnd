@@ -15,24 +15,6 @@ Tag.init(
     tag_name: {
       type: DataTypes.STRING,
     },
-      // products: {
-      //   references: {
-      //     model: 'product',
-      //     key: '',
-      //   },
-      //   product_name: {
-      //     type: DataTypes.STRING,
-      //   },
-      //   price: {
-      //     type: DataTypes.INTEGER,
-      //   },
-      //   stock: {
-      //     type: DataTypes.INTEGER,
-      //   },
-      //   category_id: {
-      //     type: DataTypes.INTEGER,
-      //   },
-      // },
   },
   {
     sequelize,

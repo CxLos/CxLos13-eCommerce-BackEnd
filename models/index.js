@@ -17,36 +17,6 @@ Product.belongsTo(Category, {
   // foreignKeyConstraint: false,
 });
 
-//ProductTag has many products & tags
-// Tag.hasMany(ProductTag, {
-//   foreignKey: 'product_id',
-//   onDelete: 'CASCADE',
-// });
-
-// //ProductTag has many products & tags
-// ProductTag.belongsTo(Tag, {
-//   foreignKey: 'product_id',
-//   onDelete: 'CASCADE',
-// });
-
-// //ProductTag has many products & tags
-// Tag.hasMany(ProductTag, {
-//   foreignKey: 'tag_id',
-//   onDelete: 'CASCADE',
-// });
-
-// //ProductTag has many products & tags
-// ProductTag.belongsTo(Tag, {
-//   foreignKey: 'tag_id',
-//   onDelete: 'CASCADE',
-// });
-
-//ProductTag has many products & tags
-// ProductTag.hasMany(Tag, {
-//   foreignKey: 'tag_id',
-//   onDelete: 'CASCADE',
-// });
-
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
   through: ProductTag,
