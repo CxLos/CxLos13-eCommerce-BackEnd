@@ -1,13 +1,9 @@
 #  CxLos13-eCommerce-BackEnd
 
 ## Description
-
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+```
+This application is a quick model of an ecommerce/ online retail site's back end of a website. The motivation behind this project was to become more familiar with working on the backend of applications. The purpose of this project was to create a strong backend application for an online retailer using sequelize to work with SQL databases and give the retailer a competetive edge in the software engineering field. The problem that this project solves is the clutter and disorganization some companies may struggle with if they do not have a team that is proficient in working on the backend of applications. In building this project, I learned how to seed a database using a javascript seeding file to create multiple tables with keys that link them to other tables with the assistance of sequelize, and how to bring it all together into one fully developed, functional, backend application. 
+```
 
 ## Table of Contents 
 	
@@ -30,10 +26,6 @@ Please watch video.
 
 [Walkthrough Video]()
 
-![Categories](./assets/images/Screenshot-045847.png)
-![Products](./assets/images/Screenshot-045913.png)
-![Tags](./assets/images/Screenshot-045928.png)
-
 ## Badges
 
 N/A
@@ -55,7 +47,7 @@ N/A
 N/A
 
 ## License
-
+```
 MIT License
 
 Copyright (c) 2022 CxLos
@@ -77,3 +69,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
