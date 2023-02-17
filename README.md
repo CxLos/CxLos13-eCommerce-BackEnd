@@ -24,7 +24,11 @@ Please watch video.
 
 [CxLos13-eCommerce-BackEnd](https://github.com/CxLos/CxLos13-eCommerce-BackEnd)
 
-[Walkthrough Video]()
+[Walkthrough Video](https://drive.google.com/file/d/16Dgb2sXWiojJ8l-x0zxhJJlp4vhkFj1B/view)
+
+[Video of Product routes working Properly](https://drive.google.com/file/d/1icsvxpvzvr8QCgn05yEkmBUuRGlKvMV2/view)
+
+![Preview](./assets/images/Screenshot-215913.png)
 
 ## Badges
 
